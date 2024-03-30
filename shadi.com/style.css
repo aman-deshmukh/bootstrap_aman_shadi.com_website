@@ -1,0 +1,97 @@
+
+.navbar-brand{
+    color: red;
+}
+
+
+	.jumbotron
+	{
+		/*background: url("shadi_images/vk4.jpg");*/
+   
+    background-image: url("shadi_images/1.jpg");
+    height: 100vh;
+		background-size: cover;
+	/*	opacity:0.80;*/
+    	}
+
+      .display-4{
+       /* text-align: center;*/
+        font-family: impact;
+         font-size: 50px;
+
+      }
+      .bg-theme {
+        background-color: #f5984c;
+        
+
+}
+
+     .aboutimage{
+          width: 100%;
+     }
+     
+     p{
+      font-family:palatino;
+      font-size: 20px;
+     }
+
+     .dir{
+       font-size: 40px;
+     }
+
+     a{
+      color :black;
+     }
+     #abc{
+      color: red;
+     }
+
+     #vk{
+          height: 48vh;
+     }
+     hr{
+      width: 60%;
+      color: red;
+     }
+.footer{
+  background-color: #e0ac70;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+.card{
+  border-style: solid red;
+  border-radius: 30px;
+}
+body{
+  background-color: #e3c591;
+}
+span{
+  color: red;
+}
+#hitman hr,#king hr,#thala hr{
+  color:#2e2413;
+  border:2px solid ;
+  width: 30%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+button{
+  
+  background-color: #ed4c0c;
+}
+
+.card-body{
+  background-color: #e3c591;
+  text-decoration-color: white; 
+  border-color: #e3c591;
+  border-width: 1px; 
+}
+.card{
+  border-width: 10px;  
+}

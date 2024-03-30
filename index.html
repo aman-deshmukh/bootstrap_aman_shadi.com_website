@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shadi.com</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+         <!--  end of cdn icon -->
+
+         <link rel="stylesheet" type="text/css" href="style.css">
+
+
+        <!--  start of slickslider cdn -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       <!--  end of slickslider cdn -->
+
+
+<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+
+
+                     <!-- /*start of cdn for modal
+*/ -->
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--  /*end of cdn for modal
+*/
+ --></head>
+
+<style >
+
+.navbar-brand{
+    color: red;
+}
+
+
+	.jumbotron
+	{
+		/*background: url("shadi_images/vk4.jpg");*/
+   
+    background-image: url("shadi_images/1.jpg");
+    height: 100vh;
+		background-size: cover;
+	/*	opacity:0.80;*/
+    	}
+
+      .display-4{
+       /* text-align: center;*/
+        font-family: impact;
+         font-size: 50px;
+
+      }
+      .bg-theme {
+        background-color: #f5984c;
+        
+
+}
+
+     .aboutimage{
+          width: 100%;
+     }
+     
+     p{
+      font-family:palatino;
+      font-size: 20px;
+     }
+
+     .dir{
+       font-size: 40px;
+     }
+
+     a{
+      color :black;
+     }
+     #abc{
+      color: red;
+     }
+
+     #vk{
+          height: 48vh;
+     }
+     hr{
+      width: 60%;
+      color: red;
+     }
+.footer{
+  background-color: #e0ac70;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+.card{
+  border-style: solid red;
+  border-radius: 30px;
+}
+body{
+  background-color: #e3c591;
+}
+span{
+  color: red;
+}
+#hitman hr,#king hr,#thala hr{
+  color:#2e2413;
+  border:2px solid ;
+  width: 30%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+button{
+  color: 
+  background-color: #ed4c0c;
+}
+
+.card-body{
+  background-color: #e3c591;
+  text-decoration-color: white; 
+  border-color: #e3c591;
+  border-width: 1px; 
+}
+</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-light bg-theme " id="pqr">
+
+<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Register</button>
+ -->
+
+  <form class="form-inline">
+    <input class="form-control btn-outline-dark text-white mr-sm-2 bg-theme" type="search" placeholder="Search Your Match" aria-label="Search">
+    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" >Filter</button>
+  </form>
+
+    <button class="btn btn btn-outline-dark mr-sm-2 my-2 my-sm-0 justify-content-end ml-auto" data-toggle="modal" data-target="#logmodal">Log In</button>
+    <button class="btn btn btn-outline-dark  my-2 my-sm-0 " data-toggle="modal" data-target="#regmodal" type="submit">Register</button>
+
+
+  
+</nav>
+<!-- modal section -->
+
+<div class="modal " id="regmodal">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header">
+        <h3> Register </h3>
+        <button class="close " data-dismiss="modal"> &times; </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Fullname" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email ID" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Contact" class="form-control">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-success"> Register </button>            
+          </div>
+          <p> Already Have an Account? <a href="#loginmodal" data-toggle="modal" data-dismiss="modal"> Sign In </a> </p>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark" data-dismiss="modal"> Cancel </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal" id="logmodal">
+  <div class="modal-dialog" >
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+      </div>
+      <div class="modal-body">
+        <form>
+        <div class="form-group">
+          <input type="text" name="" placeholder="FullName" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="email" name="" placeholder="Email Id" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Password" class="form-control">
+        </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark">login</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <!-- end of the modal -->
+<!-- end of modal
+ -->
+
+
+<div >
+<div class="jumbotron">
+  <span class="display-4" >Shaadi.com</span> <br>
+  <h3 class="dir">Dreams Into Reality!!</h3>
+ <!--  <b>Best Matrimony Site Used By Billions Of Member Worldwide...</b> -->
+
+
+ <!--  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    -->
+    
+
+</div>
+</div>
+
+<div class="container-fluid my-5" id="hitman">
+     <h2 align="center" >Introduction Of <SPAN>Shaadi.Com</SPAN></h2><hr>
+  <div class="row">
+        <div class="col-md-6 my-5">
+        
+               <img src="shadi_images/dhoni.jpg" class="aboutimage img-fluid" >
+         
+        </div>
+
+     <div class="col-md-6 my-5" >
+         
+           <p class="lead">We have been making memorable memories through matchmaking for more than 20 years. It all began with creating many successful marriages for family and friends in upstate New York. To take the essence of matchmaking to the next level Shadi.com was created. Most important component of our network is that users find their match through our platform.</p>
+
+            <p class="lead"> We are proud to mention that millions of users have been impacted with our online marriage portal with happy endings. Our commitment lies in helping members meet someone special for long lasting relationship.</p>
+
+            <p class="lead"> Today, Shadi.com is known worldwide as one of the top introductions and matrimonial services provider. We are happy to welcome you to our matchmaking network and wish you success every step of the way.</p>        
+     </div>
+
+  </div>
+  
+</div>
+
+                              <!-- end of about section -->
+
+
+
+<div class="container-fluid" id="king">
+  <h2 align="center">Our <span> Match-ups</span></h2><hr>
+  <div class="row">
+    <div class="col-md-4">
+      
+         <div >
+               <img class="card-img-top" src="shadi_images/vk.jpg" id="vk" alt="Card image cap">
+           <div class="card-body">
+                  <p class="card-text ">It is a very common saying that marriages are decided in heaven but I dont think so we being human fall in Love and if it is successful than we say ” God support true Love” or if not than “this girl or boy is not for me as marriages </p>
+           </div>
+        </div>
+      
+    </div>
+
+     <div class="col-md-4">
+      <div>
+
+         <div  >
+               <img class="card-img-top" src="shadi_images/shahrukh.jpg" alt="Card image cap">
+           <div class="card-body">
+                  <p class="card-text">It is a very common saying that marriages are decided in heaven but I dont think so we being human fall in Love and if it is successful than we say ” God support true Love” or if not than “this girl or boy is not for me as marriages </p>
+           </div>
+        </div>
+      
+        
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div>
+
+         <div  >
+               <img class="card-img-top" src="shadi_images/rohit.jpg" alt="Card image cap">
+           <div class="card-body" >
+                  <p id="khusi" style="overflow: auto;">It is a very common saying that marriages are decided in heaven but I dont think so we being human fall in Love and if it is successful than we say ” God support true Love” or if not than “this girl or boy is not for me as marriages ave so  god is great</p>
+           </div>
+        </div>
+      
+        
+      </div>
+    </div>
+
+  </div>
+</div><br><br><br>
+<!-- slick slider
+ -->
+
+       <div class="container" id="thala">
+  <!-- <h1 align="center">ABOUT<span class="text-info"> SHOPPING</span></h1> -->
+  
+     <h2 align="center" >Some <SPAN>Memories</SPAN></h2><hr>
+     <div class="row slider">
+    <div class="col-md-12">
+      <div>
+        <img src="shadi_images/vk2.jpg" class="img-fluid">
+        <div class="carousel-caption lead small d-none d-md-block ">
+                      
+         </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div>
+        <img src="shadi_images/vk.jpg"  class="img-fluid">
+        <div class="carousel-caption lead small d-none d-md-block">
+                      
+         </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div>
+        <img src="shadi_images/maxi.jpg"  class="img-fluid">
+        <div class="carousel-caption lead small d-none d-md-block">
+
+         </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div>
+        <img src="shadi_images/vk2.jpg"  class="img-fluid">
+        <div class="carousel-caption lead small d-none d-md-block">
+
+
+         </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div id="banglore">
+        <img src="shadi_images/vk3.jpg" class="img-fluid">
+        <div class="carousel-caption lead small d-none d-md-block">
+                     
+         </div>
+      </div>
+    </div>
+
+  </div>
+ </div>
+
+
+
+       <!--  start of cdn slick slider -->
+
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+       <!--  end of cdn slick slider -->
+
+<script type="text/javascript">
+  $('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 1500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+</script>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        Maharashtra Knowledge Corporation Limited (MKCL) was promoted by the Department of Higher and Technical Education, Government of Maharashtra and shifted to General Administration Department (GAD), Government of Maharashtra, India on January 05, 2018 and was incorporated under the Companies Act, 1956.<br>
+<br>
+CIN: U80302PN2001 PLC135348<br>
+PAN: AACCM8297L GSTIN: 27AACCM8297L1ZQ
+      </div>
+
+      <div class="col-md-4">
+        <h4> <i class="bi bi-building-fill">-</i>Our Centers</h4>
+      <ul>
+        <li> Rajkaml Square </li>
+        <li> Rajapeth </li>
+        <li> Gadge Nagar </li>
+        <li> Sai Nagar</li>
+        <li> PNG </li>
+        <li> Badnera </li>
+      </ul>
+        
+      </div>
+
+      <div class="col-md-4" >
+        <h4><i class="bi bi-telephone-fill">-</i>Contact us</h4>
+        <ul id="xyz">
+          <li><i class="bi bi-twitter"></i>Twitter</li>
+        
+          <li><i class="bi bi-whatsapp"></i>Whatsapp</li>
+                    <li><i class="bi bi-instagram"></i>Instagram</li>
+                    <li><i class="bi bi-youtube"></i>Youtube</li>
+                    <li><i class="bi bi-snapchat"></i></i>Snapchat</li>
+       
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal section
+ -->
+
+</body>
+</html>
